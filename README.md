@@ -94,4 +94,4 @@ Saves the current list of users to a file.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/CoderAmbar/shelfmaster.git
+   git clone https://github.com/CoderAmbar/ShelfMaster.git
