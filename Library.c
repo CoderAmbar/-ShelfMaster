@@ -276,7 +276,9 @@ void Password()
 {
 
     char storedPassword[50];
+    
     char enteredPassword[50];
+    
     FILE *file = fopen(PASSWORD_FILE, "r");
 
     if (file == NULL)
