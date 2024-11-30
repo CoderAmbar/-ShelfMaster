@@ -70,6 +70,7 @@ int main()
 
     do
     {
+        printf("\n=========== Library Management System ===========\n");
         printf("\n--- Main Menu ---\n");
         printf("1. Manage Books\n");
         printf("2. Manage Users\n");
@@ -289,9 +290,7 @@ void Password()
 
     fgets(storedPassword, sizeof(storedPassword), file);
     fclose(file);
-
     storedPassword[strcspn(storedPassword, "\n")] = 0;
-
     int attempts = 0;
     const int maxAttempts = 3;
     int accessGranted = 0;
@@ -711,6 +710,7 @@ void listBooks()
 void searchBookByTitle()
 {
     char keyword[50], normalizedKeyword[50];
+    
     int found = 0;
     int searchAgain = 0;
 
